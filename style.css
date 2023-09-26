@@ -1,0 +1,61 @@
+a {
+  cursor: pointer;
+}
+
+.header-main {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-main-nav {
+  width: fit-content;
+  height: 60px;
+}
+
+.header-main-nav ul {
+  list-style: none; /* removes bullet points*/
+}
+
+.header-main-nav ul li {
+  display: inline;
+  float: left; /* removes spaces between list item and give us to control space pixel between items  */
+}
+
+.header-main-nav ul li a {
+  padding: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  border: solid #66cc66;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.feedback-input:focus {
+  border: 2px solid #499ecc;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+}
